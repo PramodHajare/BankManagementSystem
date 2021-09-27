@@ -1,0 +1,79 @@
+2021-09-22 12:36:26,993 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-09-22 12:43:01,946 [Worker-13: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-26 10:06:46,137 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: jdbcbank:jdbcbank:0.0.1-SNAPSHOT @ C:\Java Notes(Durga Sir)\jdbcbank\pom.xml.
+2021-09-26 10:06:46,138 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: jdbcbank:jdbcbank:0.0.1-SNAPSHOT @ C:\Java Notes(Durga Sir)\jdbcbank\pom.xml.
+2021-09-26 10:06:47,921 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-26 10:06:47,922 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Java Notes(Durga Sir)\jdbcbank\src\main\resources
+2021-09-26 10:06:47,928 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-26 10:06:47,928 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Java Notes(Durga Sir)\jdbcbank\src\test\resources
+2021-09-26 10:06:50,401 [Worker-16: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: jdbcbank:jdbcbank:0.0.1-SNAPSHOT @ C:\Java Notes(Durga Sir)\jdbcbank\pom.xml.
+2021-09-26 10:06:50,415 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-26 10:06:50,415 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Java Notes(Durga Sir)\jdbcbank\src\main\resources
+2021-09-26 10:06:50,423 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-26 10:06:50,423 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Java Notes(Durga Sir)\jdbcbank\src\test\resources
+2021-09-26 10:06:52,255 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-26 10:06:52,255 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Java Notes(Durga Sir)\jdbcbank\src\main\resources
+2021-09-26 10:06:52,259 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-26 10:06:52,259 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Java Notes(Durga Sir)\jdbcbank\src\test\resources
+2021-09-26 10:12:37,958 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-26 10:12:37,959 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Java Notes(Durga Sir)\jdbcbank\src\main\resources
+2021-09-26 10:12:37,962 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-26 10:12:37,962 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Java Notes(Durga Sir)\jdbcbank\src\test\resources
+2021-09-26 10:12:39,106 [Worker-15: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-09-26 12:34:38,197 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-26 12:46:59,145 [Worker-13: Creating maven-archetype-quickstart] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Unable to create project from archetype [org.apache.maven.archetypes:maven-archetype-quickstart:1.4 -> https://repo1.maven.org/maven2]
+org.apache.maven.archetype.exception.ArchetypeGenerationFailure: org.apache.maven.archetype.exception.InvalidPackaging: Unable to add module to the current project as it is not of packaging type 'pom'
+	at org.apache.maven.archetype.generator.DefaultFilesetArchetypeGenerator.generateArchetype(DefaultFilesetArchetypeGenerator.java:237)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.processFileSetArchetype(DefaultArchetypeGenerator.java:129)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:100)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:143)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:169)
+	at org.apache.maven.archetype.DefaultArchetypeManager.generateProjectFromArchetype(DefaultArchetypeManager.java:73)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects0(ProjectConfigurationManager.java:842)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$3(ProjectConfigurationManager.java:792)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects(ProjectConfigurationManager.java:792)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$3.doCreateMavenProjects(MavenProjectWizard.java:232)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:65)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:75)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:69)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.archetype.exception.InvalidPackaging: Unable to add module to the current project as it is not of packaging type 'pom'
+	at org.apache.maven.archetype.common.DefaultPomManager.addModule(DefaultPomManager.java:99)
+	at org.apache.maven.archetype.generator.DefaultFilesetArchetypeGenerator.processPomWithParent(DefaultFilesetArchetypeGenerator.java:680)
+	at org.apache.maven.archetype.generator.DefaultFilesetArchetypeGenerator.processFilesetProject(DefaultFilesetArchetypeGenerator.java:621)
+	at org.apache.maven.archetype.generator.DefaultFilesetArchetypeGenerator.processFilesetModule(DefaultFilesetArchetypeGenerator.java:564)
+	at org.apache.maven.archetype.generator.DefaultFilesetArchetypeGenerator.generateArchetype(DefaultFilesetArchetypeGenerator.java:203)
+	... 18 common frames omitted
+2021-09-26 12:49:12,787 [Worker-2: Creating maven-archetype-quickstart] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Unable to create project from archetype [org.apache.maven.archetypes:maven-archetype-quickstart:1.4 -> https://repo1.maven.org/maven2]
+org.apache.maven.archetype.exception.ArchetypeGenerationFailure: org.apache.maven.archetype.exception.InvalidPackaging: Unable to add module to the current project as it is not of packaging type 'pom'
+	at org.apache.maven.archetype.generator.DefaultFilesetArchetypeGenerator.generateArchetype(DefaultFilesetArchetypeGenerator.java:237)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.processFileSetArchetype(DefaultArchetypeGenerator.java:129)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:100)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:143)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:169)
+	at org.apache.maven.archetype.DefaultArchetypeManager.generateProjectFromArchetype(DefaultArchetypeManager.java:73)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects0(ProjectConfigurationManager.java:842)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$3(ProjectConfigurationManager.java:792)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects(ProjectConfigurationManager.java:792)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$3.doCreateMavenProjects(MavenProjectWizard.java:232)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:65)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:75)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:69)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.archetype.exception.InvalidPackaging: Unable to add module to the current project as it is not of packaging type 'pom'
+	at org.apache.maven.archetype.common.DefaultPomManager.addModule(DefaultPomManager.java:99)
+	at org.apache.maven.archetype.generator.DefaultFilesetArchetypeGenerator.processPomWithParent(DefaultFilesetArchetypeGenerator.java:680)
+	at org.apache.maven.archetype.generator.DefaultFilesetArchetypeGenerator.processFilesetProject(DefaultFilesetArchetypeGenerator.java:621)
+	at org.apache.maven.archetype.generator.DefaultFilesetArchetypeGenerator.processFilesetModule(DefaultFilesetArchetypeGenerator.java:564)
+	at org.apache.maven.archetype.generator.DefaultFilesetArchetypeGenerator.generateArchetype(DefaultFilesetArchetypeGenerator.java:203)
+	... 18 common frames omitted
